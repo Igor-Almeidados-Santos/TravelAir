@@ -1,0 +1,148 @@
+* { 
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    list-style: none;
+}
+
+html{
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #6DB2C8;
+    height: 65px;
+}
+
+.container{
+    display: flex;
+
+    max-width: 1860px;
+    height: 100%;
+
+    margin: 0 auto;
+    
+}
+
+.button{
+    font-size: 1.6rem;
+
+    background: #40698E;
+    color: #F8F8FF;
+
+    margin-right: 5px;
+    padding: 1rem 2rem;
+    border-radius: 29px;
+}
+
+/*Header*/
+header .container{
+    justify-content: space-between;
+}
+
+header .container .logo{
+    display: flex;   
+    align-items: center;
+
+    height: 100%;
+}
+
+header .container .logo a{
+    color: #F8F8FF;
+    font-family: 'WindSong', cursive;
+    font-size: 3rem;
+}
+
+header .container .nav{
+    display: flex;
+    align-items: center;
+
+    width: 30%;    
+}
+
+header .container .nav ul{
+    display: flex;
+    justify-content: space-between;
+
+    width: 100%;
+}
+
+header .container .nav ul li a{
+    font-size: 1.6rem;
+    color: #F8F8FF;
+}
+
+header .container .user-login{
+    display: flex;
+    align-items: center;
+}
+
+header .container .user-login a{
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    color: #F8F8FF;
+}
+
+/*Hero*/
+main .hero{
+    height: 40vw;
+    position: relative;
+    background: url(/Img/jo-sorgenfri-4OmQ8pDJ5W0-unsplash.jpg) no-repeat ;
+    opacity: .8;
+    background-size: 100% 100%;
+}
+
+main .hero .container{
+    justify-content: space-between;
+}
+
+main .hero .container .info{
+    display: flex;
+    flex-direction: column;
+
+    font-size: 1.2rem;
+
+    height: 50%;
+    width: 27%;
+
+    margin-top: 10%;
+    margin-left: 21px;
+    padding: 3rem 0 0 3rem;
+
+    background-color: rgba(109, 178, 200, .8);
+}
+
+main .hero .container .info h1{
+    font-size: 3.1rem;
+    margin-bottom: 4rem;
+}
+
+main .hero .container .info p{
+    width: 80%;
+    margin-bottom: 6rem;
+
+    font-size: 1.7rem;
+}
+
+main .hero .container .info .button{
+    width: 10rem;
+    text-align: center;
+}
+
+main .hero .container .image{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+
+    margin-right: 21px;
+
+    height: 72%;
+}
+
+main .hero .container .image img{
+    height: 200px;
+    width: 200px;
+}
