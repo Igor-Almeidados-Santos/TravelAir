@@ -166,3 +166,31 @@ main .hero .container .image img{
 
     opacity: .8;
 }
+
+/*Search box*/
+
+.search-box {
+    width: 1720px;
+    height: 120px;
+
+    background-color: #6DB2C8;
+}
+
+.search-box .search-info{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 100%;
+}
+
+.search-box .search-info .button2{
+   height: 120px;
+   width: 165px;
+
+   font-size: 1.6rem;
+
+   background-color: #40698E;
+   color: #F8F8FF;
+}
