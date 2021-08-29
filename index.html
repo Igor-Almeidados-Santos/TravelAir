@@ -9,9 +9,9 @@
     <link rel="stylesheet" href="./style/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    
+
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    
+
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;700&family=WindSong:wght@400;500&display=swap"
         rel="stylesheet">
@@ -32,7 +32,7 @@
             </nav>
             <div class="user-login">
                 <a href="#" class="button">Entrar</a>
-                <a href="#" >Cadastre-se</a>
+                <a href="#">Cadastre-se</a>
             </div>
         </div>
     </header>
@@ -42,15 +42,17 @@
                 <div class="container">
                     <div class="info">
                         <h1>Lorem ipsum dolor sit amet</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                            laboris nisi ut aliquip ex ea commodo consequat.</p>
+
                         <a href="#" class="button">Veja mais</a>
                     </div>
                     <div class="image">
                         <img src="./Img//Japao.jpg" alt="">
-    
+
                         <img src="./Img/Franca.jpg" alt="">
-    
+
                         <img src="./Img/United-states.jpg" alt="">
                     </div>
                 </div>
@@ -59,23 +61,35 @@
 
         <section class="search-box">
             <div class="search-info">
-                <form action="" method="POST">
-                    <label for="local">Local</label>
-                    <input type="text" name="local">
+                <form action="" method="GET">
+                    <div class="items">
 
-                    <label for="check-in">Check-in</label>
-                    <input type="date" name="check-in">
+                        <div class="item">
+                            <label for="local">Local</label>
+                            <input type="text" name="local">
+                        </div>
 
-                    <label for="check-out">Check-out</label>
-                    <input type="date" name="check-out">
+                        <div class="item">
+                            <label for="check-in">Check-in</label>
+                            <input type="date" name="check-in">
+                        </div>
 
-                    <label for="quantidade">Quantidade</label>
-                    <input type="number" name="quantidade">
-                    <input type="number" name="quantidade">
+                        <div class="item">
+                            <label for="check-out">Check-out</label>
+                            <input placeholder="oi" type="date" name="check-out">
+                        </div>
 
+                        <div class="item">
+                            <label for="quantidade">Quantidade</label>
+                            <input class="lower-input" type="number" name="quantidade">
+                            <input class="lower-input" type="number" name="quantidade">
+                        </div>
+
+                    </div>
+
+                    <button class="button2">Buscar</button>
                 </form>
 
-                <button class="button2">Buscar</button>
             </div>
         </section>
     </main>
