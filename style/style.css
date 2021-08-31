@@ -266,9 +266,19 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 
 /*Travel Plans*/
 
+main .travel-plans{
+    height: 70vh;
+
+    background-image: url(../Img/kisspng-landscape-painting-ink-wash-painting-chinese-fengshui-mountain-forest-landscape-5a9b45dd341f11.1859601515201254052135.png);
+    background-repeat: no-repeat;
+    background-size: 900px 500px;
+    background-position: 0 180%;
+}
+
 main .travel-plans .container{
     justify-content: space-between;
     align-items: center;
+    /* background-color: aquamarine; */
 }
 
 main .travel-plans .container .info-plans{
@@ -277,6 +287,8 @@ main .travel-plans .container .info-plans{
     justify-content: center;
 
     padding: 3rem;
+    margin-top: 50px;
+    margin-left: 20px;
 
     height: 335px;
     width: 335px;
@@ -299,7 +311,25 @@ main .travel-plans .container .info-plans .button{
     text-align: center;
 }
 
-main .travel-plans .container .travel-place{
+main .travel-plans .container .travel-places{
     display: flex;
+    background-color: #40698E;
+    margin-top: 100px;
 
+    position: absolute;
+    left: 600px;
+}
+
+main .travel-plans .container .travel-places .place{
+    margin-right: 20px;
+}
+
+main .travel-plans .container .travel-places .place img{
+    height: 450px;
+    width: 300px;
+
+}
+
+main .travel-plans .container .travel-places .place .place-info{
+    display: none;
 }
