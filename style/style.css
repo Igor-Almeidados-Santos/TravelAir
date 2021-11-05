@@ -283,23 +283,15 @@ main .travel-plans{
     background-image: url(../Img/kisspng-landscape-painting-ink-wash-painting-chinese-fengshui-mountain-forest-landscape-5a9b45dd341f11.1859601515201254052135.png);
     background-repeat: no-repeat;
     background-size: 900px 500px;
-    background-position: 0 180%;
+    background-position: 0 122%;
     box-sizing: border-box;
 }
 
 main .travel-plans .container{
     justify-content: space-between;
     align-items: center;
-    /* background-color: aquamarine; */
     box-sizing: border-box;
-}
 
-main .travel-plans .action-buttons{
-    background-color: aqua;
-    position: relative;
-    left: 100%;
-    display: flex;
-    width: 10rem;
 }
 
 main .travel-plans .container .info-plans{
@@ -330,12 +322,12 @@ main .travel-plans .container .info-plans .button{
 
 main .travel-plans .container .travel-places{
     display: flex;
-    /* background-color: #40698E; */
     margin-top: 100px;
+    width: 60%;
     box-sizing: border-box;
-
-    /* position: absolute;
-    left: 35%; */
+    overflow: hidden;
+    position: relative;
+    left: 6.8%;
 }
 
 main .travel-plans .container .travel-places .place{
@@ -356,13 +348,22 @@ main .travel-plans .container .travel-places .place .place-info{
 /* Catergorias */
 .categories .container{
     flex-direction: column;
-    padding: 0 180px;
-    background-color: aqua;
+    padding: 100px 180px;
+}
+
+.categories .horizontal-line{
+    height: 1px;
+    
+    background-color: #6DB2C8;
+
+    margin-bottom: 40px;
 }
 
 .categories .container .categories-text{
     display: flex;
     justify-content: space-between;
+
+    margin: 10px 0;
 }
 
 .categories .container .categories-box{
@@ -371,12 +372,12 @@ main .travel-plans .container .travel-places .place .place-info{
 }
 
 .categories .container .categories-box .categories-item{
-    background-color: aqua;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
+    background-color: aqua;
 
     height: 260px;
     width: 220px;
