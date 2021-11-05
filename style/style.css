@@ -389,10 +389,49 @@ main .travel-plans .container .travel-places .place .place-info{
     font-weight: 700;
     font-size: 1.7rem;
     color: #F8F8FF;
+
+    position: relative;
+    z-index: 1000;
 }
 
 .categories .container .categories-box .categories-item .icon{
     height: 50px;
 
     margin-bottom: 40px;
+}
+
+.categories .container .categories-box :nth-child(1){
+    background-image: url(../Img/praia.jpg);
+    background-repeat: no-repeat;
+    background-size: 245px 260px;
+}
+
+.categories .container .categories-box :nth-child(2){
+    background-image: url(../Img/cidade.jpg);
+    background-repeat: no-repeat;
+    background-size: 220px 260px;
+}
+
+.categories .container .categories-box :nth-child(1){
+    background-image: url(../Img/praia.jpg);
+    background-repeat: no-repeat;
+    background-size: 230px 260px;
+}
+
+.categories .container .categories-box :nth-child(1){
+    background-image: url(../Img/praia.jpg);
+    background-repeat: no-repeat;
+    background-size: 245px 260px;
+}
+
+.categories .container .categories-box :nth-child(1){
+    background-image: url(../Img/praia.jpg);
+    background-repeat: no-repeat;
+    background-size: 245px 260px;
+}
+
+.categories .container .categories-box :nth-child(1){
+    background-image: url(../Img/praia.jpg);
+    background-repeat: no-repeat;
+    background-size: 245px 260px;
 }
