@@ -260,7 +260,7 @@ input[type="number"] {
 
 input[type="date"]::-webkit-calendar-picker-indicator {
     cursor: pointer;
-    filter: invert(10) brightness(100%) sepia(100%) saturate(100%) hue-rotate(0deg);
+    filter: invert(10) brightness(100%);
 }
 
 .search-box .search-info .search-button{
@@ -278,11 +278,11 @@ input[type="date"]::-webkit-calendar-picker-indicator {
 /*Travel Plans*/
 
 main .travel-plans{
-    height: 100vh;
+    height: 85vh;
 
     background-image: url(../Img/kisspng-landscape-painting-ink-wash-painting-chinese-fengshui-mountain-forest-landscape-5a9b45dd341f11.1859601515201254052135.png);
     background-repeat: no-repeat;
-    background-size: 900px 500px;
+    background-size: 1100px 500px;
     background-position: 0 122%;
     box-sizing: border-box;
 }
@@ -322,8 +322,9 @@ main .travel-plans .container .info-plans .button{
 
 main .travel-plans .container .travel-places{
     display: flex;
-    margin-top: 100px;
-    width: 60%;
+    align-items: center;
+    width: 70%;
+    height: 100%;
     box-sizing: border-box;
     overflow: hidden;
     position: relative;
@@ -332,20 +333,55 @@ main .travel-plans .container .travel-places{
 
 main .travel-plans .container .travel-places .place{
     margin-right: 20px;
+    background-color: #F8F8FF;
 }
 
 main .travel-plans .container .travel-places .place img{
     height: 450px;
     width: 250px;
-
+    
     opacity: .9;
 }
 
 main .travel-plans .container .travel-places .place .place-info{
     display: none;
+    
+    background-color: #F8F8FF;
+}
+
+main .travel-plans .container .travel-places .place .place-info h2{
+    margin-left: 10px;
+    color: black;
+}
+
+main .travel-plans .container .travel-places .place .place-info .top-info b{
+    color: black;
+}
+
+
+main .travel-plans .container .travel-places .place .place-info .top-info, .bottom-info{
+    display: flex;
+    justify-content: space-between;
+
+    color: #808080;
+
+    margin: 10px;
+}
+
+main .travel-plans .container .travel-places .place img:hover + .place-info{
+    display: flex;
+    flex-direction: column;
+    margin-top: 0;
+}
+
+main .travel-plans .container .travel-places .place img:hover{
+    opacity: .6;
 }
 
 /* Catergorias */
+.categories{
+    background-color: #FFFFFF;
+}
 .categories .container{
     flex-direction: column;
     padding: 100px 180px;
@@ -364,6 +400,12 @@ main .travel-plans .container .travel-places .place .place-info{
     justify-content: space-between;
 
     margin: 10px 0;
+}
+
+.categories .container .categories-text a{
+    font-size: 1.6rem;
+
+    color: 	#808080;
 }
 
 .categories .container .categories-box{
@@ -387,7 +429,7 @@ main .travel-plans .container .travel-places .place .place-info{
 
 .categories .container .categories-box .categories-item p{
     font-weight: 700;
-    font-size: 1.7rem;
+    font-size: 1.9rem;
     color: #F8F8FF;
 
     position: relative;
@@ -395,43 +437,49 @@ main .travel-plans .container .travel-places .place .place-info{
 }
 
 .categories .container .categories-box .categories-item .icon{
-    height: 50px;
-
+    height: 70px;
+    filter: invert(10) brightness(100%);
     margin-bottom: 40px;
 }
 
-.categories .container .categories-box :nth-child(1){
+.categories .container .categories-box div:nth-child(1){
     background-image: url(../Img/praia.jpg);
     background-repeat: no-repeat;
     background-size: 245px 260px;
+    opacity: 0.8;
 }
 
-.categories .container .categories-box :nth-child(2){
+.categories .container .categories-box div:nth-child(2){
     background-image: url(../Img/cidade.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.categories .container .categories-box div:nth-child(3){
+    background-image: url(../Img/health.jpg);
+    background-repeat: no-repeat;
     background-size: 220px 260px;
+    opacity: 0.8;
 }
 
-.categories .container .categories-box :nth-child(1){
-    background-image: url(../Img/praia.jpg);
+.categories .container .categories-box :nth-child(4){
+    background-image: url(../Img/Ski.jpg);
     background-repeat: no-repeat;
-    background-size: 230px 260px;
+    background-size: 220px 260px;
+    opacity: 0.8;
 }
 
-.categories .container .categories-box :nth-child(1){
-    background-image: url(../Img/praia.jpg);
+.categories .container .categories-box :nth-child(5){
+    background-image: url(../Img/Tour.jpg);
     background-repeat: no-repeat;
-    background-size: 245px 260px;
+    background-size: 220px 260px;
+    opacity: 0.8;
 }
 
-.categories .container .categories-box :nth-child(1){
-    background-image: url(../Img/praia.jpg);
+.categories .container .categories-box :nth-child(6){
+    background-image: url(../Img/Adventure.jpg);
     background-repeat: no-repeat;
-    background-size: 245px 260px;
-}
-
-.categories .container .categories-box :nth-child(1){
-    background-image: url(../Img/praia.jpg);
-    background-repeat: no-repeat;
-    background-size: 245px 260px;
+    background-size: 220px 260px;
+    opacity: 0.8;
 }
